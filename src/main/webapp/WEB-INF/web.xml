@@ -62,10 +62,10 @@
     <param-value>60000</param-value>
   </context-param>
 
-  <!-- 配置Log4j监听器 -->
-  <listener>
-    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
-  </listener>
+  <!--&lt;!&ndash; 配置Log4j监听器 &ndash;&gt;-->
+  <!--<listener>-->
+    <!--<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>-->
+  <!--</listener>-->
 
   <!-- Spring MVC 核心控制器 DispatcherServlet 配置 -->
   <servlet>
